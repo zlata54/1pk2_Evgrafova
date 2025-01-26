@@ -19,7 +19,7 @@
             for(double Celsius=minCelsius;Celsius<=maxCelsius; Celsius+=step)
             {
                 double Fahrenheit = Celsius * 1.8 + 32;
-                Console.WriteLine($"{Celsius,31}|{Fahrenheit,34}");
+                Console.WriteLine($"{Celsius,31}|{Fahrenheit,34}"); 
             }
         }
     }
