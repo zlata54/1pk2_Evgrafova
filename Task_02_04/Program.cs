@@ -6,7 +6,7 @@
          * произведите расчет является ли пользователь совершеннолетним на текущую дату и выведите
          * соответствующее сообщение об этом
          */
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
             Console.WriteLine("Введите год вашего рождения полностью:");
             int year = int.Parse(Console.ReadLine());
