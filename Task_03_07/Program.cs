@@ -10,7 +10,7 @@
         {
             Console.WriteLine(" t | v=g*t ");
             Console.WriteLine("___|_______");
-            for (double t = 0; t <= 10; t += 0.5)
+            for (double t = 0; t <= 10; t += 0.5) 
             {
                 double g = 9.8;
                 double v = g * t;
