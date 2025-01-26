@@ -12,7 +12,7 @@
             double x = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите процент вклада:");
             double p = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Введите конечную целевую сумму:");
+            Console.WriteLine("Введите конечную целевую сумму:"); 
             double y = Convert.ToDouble(Console.ReadLine());
             int year = 0;
             while (x < y)
