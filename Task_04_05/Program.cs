@@ -9,7 +9,7 @@ namespace Task_04_05
          * за месяц и отдельно вывести дни без осадков. Массив с осадками заполнятся с помощью рандома
          * в диапазоне от 0 – нет осадков, до 300 мм выпавших осадков.
          */
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
             int[] precipitation = new int[30];
             Random rnd = new Random();
