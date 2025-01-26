@@ -17,7 +17,7 @@ namespace Task_04_09
 
               for (int i = 0; i < numbers.Length; i++)
               {
-                  numbers[i] = rnd.Next(1,11);
+                  numbers[i] = rnd.Next(1,11); 
                   int count = 0;
 
                   for (int j = 0; j < numbers.Length; j++)
