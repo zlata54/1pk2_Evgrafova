@@ -14,7 +14,7 @@
             for (double x = -4; x <= 4.0; x += 0.5)
             {
                 double y = Math.Abs(x);
-                Console.WriteLine($"{Math.Round(x,1),-4}|{Math.Round(y,1),-9}");
+                Console.WriteLine($"{Math.Round(x,1),-4}|{Math.Round(y,1),-9}"); 
             }
         }
     }
