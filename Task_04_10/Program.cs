@@ -10,7 +10,7 @@ namespace Task_04_10
          * Например, исходный массив: [5,2,-10,0,4,-6,7,2,9,-7]
          * Результат: [4,0,-10,2,5,-7,9,2,7,-6]
          */
-        static void Main(string[] args)
+        static void Main(string[] args) 
             {
                 int[] a = new int[10];
                 int[] b = new int[10];
