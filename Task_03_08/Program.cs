@@ -7,7 +7,7 @@
          * 
          */
         static void Main(string[] args)
-        {
+        { 
             for (int x = 20; x <= 50; x++)
             {
                 if (x % 3 == 0 && x % 5 != 0)
