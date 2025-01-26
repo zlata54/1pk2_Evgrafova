@@ -13,7 +13,7 @@
 
             for (int i = 0; i < heights.Length; i++)
             {
-                heights[i] = random.Next(-190, 190);
+                heights[i] = random.Next(-190, 190); 
             }
                 int boysCount = 0;
                 int girlsCount = 0;
