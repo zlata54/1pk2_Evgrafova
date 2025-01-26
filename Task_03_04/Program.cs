@@ -7,11 +7,11 @@
          *строк введенных пользователем.
          */
         static void Main(string[] args)
-        {
+        { 
             int LineCount = 0;
             string input;
             while (true)
-            {
+            { 
                 Console.Clear();
                 Console.WriteLine("Введите текст или exit для выхода:");
                 input = Console.ReadLine();
