@@ -7,6 +7,7 @@ namespace Task_02_02
         /*Найти значение выражения
          * при a=8, b=14, c=PI/4
          * 
+         * 
          */
         static void Main(string[] args)
         {
