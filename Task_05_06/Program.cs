@@ -8,6 +8,7 @@
          *3 столбец содержит числа кратные 3
          *4 столбец содержит числа кратные 4
          *5 столбец содержит числа кратные 5
+         *Осуществить переворот массива (поменять строки и столбцы местами) вывести обновленный массив
          */
         static void Main(string[] args)
         {
@@ -40,6 +41,7 @@
                 }
             }
 
+            Console.WriteLine("Изначальный массив:");
             for (int i = 0; i < 10; i++)
             {
                 for (int j = 0; j < 5; j++)
@@ -48,6 +50,29 @@
                 }
                 Console.WriteLine();
             }
+            int x = array.GetLength(0);
+            int y = array.GetLength(1);
+
+            int[,] transposedArray = new int[y, x];
+
+            for (int i = 0; i < x; i++)
+            {
+                for (int j = 0; j < y; j++)
+                {
+                    transposedArray[j, i] = array[i, j];
+                }
+            }
+
+            Console.WriteLine("Перевернутый массив:");
+            for (int i = 0; i < y; i++)
+            {
+                for (int j = 0; j < x; j++)
+                {
+                    Console.Write(transposedArray[i, j] + "\t");
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
+
