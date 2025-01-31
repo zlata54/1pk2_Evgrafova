@@ -16,7 +16,6 @@ namespace Task_05_07
             int[,] array = new int[n, n];
             Random rnd = new Random();
 
-            Console.WriteLine("Изначальный массив:");
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < n; j++)
@@ -33,7 +32,7 @@ namespace Task_05_07
                 }
                Console.WriteLine();
             }
-            Console.Write("Минимальный элемент:");
+            Console.WriteLine("Минимальный элемент матрицы:");
             int minValue = array[0, 0];
             for (int i = 0; i < n; i++)
             {
