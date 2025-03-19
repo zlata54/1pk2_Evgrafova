@@ -20,7 +20,11 @@
 
             Console.WriteLine($"После вызова метода: x = {x}, y = {y}");
         }
-
+        /// <summary>
+        /// Меняет местами значения двух целых чисел.
+        /// </summary>
+        /// <param name="x">Первое целое число, которое будет заменено.</param>
+        /// <param name="y">Второе целое число, которое будет заменено.</param>
         static void Swap(int x, int y)
         {
             int a = x;
